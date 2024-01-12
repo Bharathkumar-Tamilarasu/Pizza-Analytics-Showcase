@@ -1,0 +1,13 @@
+link - https://www.youtube.com/watch?v=lrl0vz-p-yc
+
+color - 
+#ffbe7d (orange)
+#24324c (Blue)
+#1e2633 (Somewhat Black)
+Letter Yellow - #efff3d
+
+segoe UI black (Title)
+segoe ui semibold (Dash Titles) - orange
+segoe with bold (Values) - white
+segoe for axis (size 8) - white
+
