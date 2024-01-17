@@ -1,6 +1,6 @@
-# Covid-19 : An Analytical Study
+# Pizza Analytics Showcase
 
-## Question and Answers
+## Query Execution Log
 
 **Author**: Bharathkumar Tamilarasu <br />
 **Email**: bharathkumar.t.17@gmail.com <br />
