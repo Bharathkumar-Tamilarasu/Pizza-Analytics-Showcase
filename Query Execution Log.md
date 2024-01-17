@@ -27,6 +27,9 @@ SELECT SUM(TOTAL_PRICE) / COUNT(DISTINCT ORDER_ID) AS AVERAGE_ORDER_VALUE
 FROM PIZZA_SALES
 ````
 
+**Results:**
+
+
 #### III. Total Pizzas Sold
 
 ````sql
@@ -34,13 +37,19 @@ SELECT SUM(QUANTITY) AS TOTAL_PIZZAS_SOLD
 FROM PIZZA_SALES
 ````
 
+**Results:**
+
+
 #### IV. Total Orders
 
 ````sql
 SELECT COUNT(DISTINCT ORDER_ID) AS TOTAL_ORDERS
 FROM PIZZA_SALES
 ````
- 
+
+**Results:**
+
+
 
 #### V.	Average Pizzas Per Order
 
@@ -48,7 +57,12 @@ FROM PIZZA_SALES
 SELECT ROUND((SUM(QUANTITY) * 1.0) / (COUNT(DISTINCT ORDER_ID) * 1.0),2) AS AVERAGE_PIZZAS_PER_ORDER
 FROM PIZZA_SALES
 ````
- 
+
+
+**Results:**
+
+
+
 ### B.	Hourly Trend for Total Pizzas Sold
 
 ````sql
@@ -57,7 +71,11 @@ FROM PIZZA_SALES
 GROUP BY 1
 ORDER BY 1
 ````
- 
+
+
+**Results:**
+
+
 
 ### C.	Weekly Trend for Total Orders
 
@@ -69,6 +87,9 @@ FROM PIZZA_SALES
 GROUP BY 1,2
 ORDER BY 1
 ````
+
+
+**Results:**
 
 	
    
@@ -87,6 +108,9 @@ ORDER BY 1
 ````
 
  
+**Results:**
+
+
 
 ### E.	Percentage of Sales by Pizza Size
 
@@ -100,6 +124,9 @@ GROUP BY 1
 ORDER BY 3 DESC
 ````
  
+**Results:**
+
+
 
 ### F.	Total Pizzas Sold by Pizza Category
 
@@ -112,6 +139,9 @@ ORDER BY 2 DESC
 ````
 
  
+**Results:**
+
+
 
 ### G.	Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
 
@@ -126,6 +156,9 @@ ORDER BY 2 DESC
 LIMIT 5
 ````
 
+**Results:**
+
+
  
 
 #### II. By Total Quantity
@@ -139,6 +172,9 @@ ORDER BY 2 DESC
 LIMIT 5
 ````
  
+**Results:**
+
+
 
 #### III. Total Orders
 
@@ -151,6 +187,9 @@ ORDER BY 2 DESC
 LIMIT 5
 ````
  
+**Results:**
+
+
 
 ### H.	Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
 
@@ -165,6 +204,9 @@ ORDER BY 2 ASC
 LIMIT 5
 ````
  
+**Results:**
+
+
 
 #### II. By Total Quantity
 
@@ -176,6 +218,9 @@ GROUP BY 1
 ORDER BY 2 ASC
 LIMIT 5
 ````
+
+**Results:**
+
 
  
 
@@ -190,6 +235,8 @@ GROUP BY 1
 ORDER BY 2 ASC
 LIMIT 5
 ````
+
+**Results:**
 
 
 
