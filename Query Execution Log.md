@@ -19,6 +19,9 @@ FROM PIZZA_SALES
 
 **Results:**
 
+| total_revenue |
+|---------------|
+| 817860.0508   |
 
 #### II. Average Order Value
 
@@ -29,6 +32,9 @@ FROM PIZZA_SALES
 
 **Results:**
 
+| average_order_value |
+|---------------------|
+| 38.30726233         |
 
 #### III. Total Pizzas Sold
 
@@ -39,6 +45,9 @@ FROM PIZZA_SALES
 
 **Results:**
 
+| total_pizzas_sold |
+|-------------------|
+| 49574             |
 
 #### IV. Total Orders
 
@@ -49,7 +58,9 @@ FROM PIZZA_SALES
 
 **Results:**
 
-
+| total_orders |
+|--------------|
+| 21350        |
 
 #### V.	Average Pizzas Per Order
 
@@ -58,10 +69,11 @@ SELECT ROUND((SUM(QUANTITY) * 1.0) / (COUNT(DISTINCT ORDER_ID) * 1.0),2) AS AVER
 FROM PIZZA_SALES
 ````
 
-
 **Results:**
 
-
+| average_pizzas_per_order |
+|--------------------------|
+| 2.32                     |
 
 ### B.	Hourly Trend for Total Pizzas Sold
 
@@ -72,10 +84,25 @@ GROUP BY 1
 ORDER BY 1
 ````
 
-
 **Results:**
 
-
+| order_time | total_orders |
+|------------|--------------|
+| 9          | 4            |
+| 10         | 18           |
+| 11         | 2728         |
+| 12         | 6776         |
+| 13         | 6413         |
+| 14         | 3613         |
+| 15         | 3216         |
+| 16         | 4239         |
+| 17         | 5211         |
+| 18         | 5417         |
+| 19         | 4406         |
+| 20         | 3534         |
+| 21         | 2545         |
+| 22         | 1386         |
+| 23         | 68           |
 
 ### C.	Weekly Trend for Total Orders
 
@@ -88,10 +115,15 @@ GROUP BY 1,2
 ORDER BY 1
 ````
 
+**Results:(First 5 Weeks)**
 
-**Results:**
-
-	
+| week_number | order_year | total_orders | week_number |
+|-------------|------------|--------------|-------------|
+| 1           | 2015       | 254          | 21          |
+| 2           | 2015       | 427          | 22          |
+| 3           | 2015       | 400          | 23          |
+| 4           | 2015       | 415          | 24          |
+| 5           | 2015       | 436          | 25          |
    
  
 
