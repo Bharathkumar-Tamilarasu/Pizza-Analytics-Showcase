@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Embarking on the exploration of pizza sales, I delved into sales data using SQL. In this process, I uncovered intriguing patterns, trends, and crucial figures tied to pizza sales. Armed with these insights, I transformed the gathered information into dynamic visuals using Tableau, creating a narrative that simplifies the intricate world of pizza sales.
+Diving into pizza sales data with SQL, I found interesting patterns and figures. Using Tableau, I turned this info into visuals, simplifying the world of pizza sales.
 
 ## Data Analysis
 
@@ -24,6 +24,6 @@ Key dataset for this case study
 
 
 ## Entity Relationship Diagram
-![alt text]()
-
+![alt text](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza%20Sales%20ERD.png)
+##
 ### *Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!*
