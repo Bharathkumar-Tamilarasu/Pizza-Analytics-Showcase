@@ -6,7 +6,8 @@
 **LinkedIn**: https://www.linkedin.com/in/bharathkumar-tamilarasu-218429222/  <br />
 
 ## Introduction
-This project uses SQL to study Covid-19 data from January 1, 2020, to October 3, 2023. By asking questions to the data, we found important facts about the Covid-19 pandemic during this time. The project helps us understand how the pandemic has affected people and countries over the past few years.
+
+Embarking on the exploration of pizza sales, I delved into sales data using SQL. In this process, I uncovered intriguing patterns, trends, and crucial figures tied to pizza sales. Armed with these insights, I transformed the gathered information into dynamic visuals using Tableau, creating a narrative that simplifies the intricate world of pizza sales.
 
 ## Data Analysis
 
@@ -15,14 +16,14 @@ Find out the SQL analysis below
   
 ## Data Visualization
 
-* Using [Tableau](https://public.tableau.com/app/profile/bharathkumar.tamilarasu/viz/Covid19Analysis_16974819683520/Covid19Analysis)
+* Using [Tableau](https://public.tableau.com/app/profile/bharathkumar.tamilarasu/viz/PizzaSales_16959016177880/Home)
 
 ## Datasets used
-Key datasets for this case study
-- <strong>Nashville Housing Data for Data Cleaning.csv</strong>: Details about Nashville Housing. Check out the dataset [here](https://github.com/Bharathkumar-Tamilarasu/Nashville-Housing-Cleanup_SQL/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.csv).
+Key dataset for this case study
+- <strong>pizza_sales.csv</strong>: Pizza sales data. Check out the dataset [here](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/pizza_sales.csv).
 
 
 ## Entity Relationship Diagram
-![alt text](https://github.com/Bharathkumar-Tamilarasu/Nashville-Housing-Cleanup_SQL/blob/main/ERD.png)
+![alt text]()
 
 ### *Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!*
