@@ -124,8 +124,7 @@ ORDER BY 1
 | 3           | 2015       | 400          | 23          |
 | 4           | 2015       | 415          | 24          |
 | 5           | 2015       | 436          | 25          |
-   
- 
+
 
 ### D.	Percentage of Sales by Pizza Category
 
@@ -142,6 +141,12 @@ ORDER BY 1
  
 **Results:**
 
+| pizza_category | total_sales | percentage_of_total_sales |
+|----------------|-------------|---------------------------|
+| Chicken        | 195919.5    | 23.96                     |
+| Classic        | 220053.1    | 26.91                     |
+| Supreme        | 208197      | 25.46                     |
+| Veggie         | 193690.45   | 23.68                     |
 
 
 ### E.	Percentage of Sales by Pizza Size
@@ -158,6 +163,13 @@ ORDER BY 3 DESC
  
 **Results:**
 
+| pizza_size | total_sales | percentage_of_total_sales |
+|------------|-------------|---------------------------|
+| L          | 375318.7    | 45.89                     |
+| M          | 249382.25   | 30.49                     |
+| S          | 178076.5    | 21.77                     |
+| XL         | 14076       | 1.72                      |
+| XXL        | 1006.6      | 0.12                      |
 
 
 ### F.	Total Pizzas Sold by Pizza Category
@@ -169,10 +181,15 @@ FROM PIZZA_SALES
 GROUP BY 1
 ORDER BY 2 DESC
 ````
-
  
 **Results:**
 
+| pizza_category | total_sales |
+|----------------|-------------|
+| Classic        | 14888       |
+| Supreme        | 11987       |
+| Veggie         | 11649       |
+| Chicken        | 11050       |
 
 
 ### G.	Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
@@ -190,6 +207,13 @@ LIMIT 5
 
 **Results:**
 
+| pizza_name                   | total_revenue |
+|------------------------------|---------------|
+| The Thai Chicken Pizza       | 43434.25      |
+| The Barbecue Chicken Pizza   | 42768         |
+| The California Chicken Pizza | 41409.5       |
+| The Classic Deluxe Pizza     | 38180.5       |
+| The Spicy Italian Pizza      | 34831.25      |
 
  
 
@@ -206,6 +230,13 @@ LIMIT 5
  
 **Results:**
 
+| pizza_name                 | total_quantity |
+|----------------------------|----------------|
+| The Classic Deluxe Pizza   | 2453           |
+| The Barbecue Chicken Pizza | 2432           |
+| The Hawaiian Pizza         | 2422           |
+| The Pepperoni Pizza        | 2418           |
+| The Thai Chicken Pizza     | 2371           |
 
 
 #### III. Total Orders
@@ -221,7 +252,13 @@ LIMIT 5
  
 **Results:**
 
-
+| pizza_name                 | total_orders |
+|----------------------------|--------------|
+| The Classic Deluxe Pizza   | 2329         |
+| The Hawaiian Pizza         | 2280         |
+| The Pepperoni Pizza        | 2278         |
+| The Barbecue Chicken Pizza | 2273         |
+| The Thai Chicken Pizza     | 2225         |
 
 ### H.	Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
 
@@ -238,6 +275,13 @@ LIMIT 5
  
 **Results:**
 
+| pizza_name                | total_revenue |
+|---------------------------|---------------|
+| The Brie Carre Pizza      | 11588.49981   |
+| The Green Garden Pizza    | 13955.75      |
+| The Spinach Supreme Pizza | 15277.75      |
+| The Mediterranean Pizza   | 15360.5       |
+| The Spinach Pesto Pizza   | 15596         |
 
 
 #### II. By Total Quantity
@@ -253,7 +297,13 @@ LIMIT 5
 
 **Results:**
 
-
+| pizza_name                | total_quantity |
+|---------------------------|----------------|
+| The Brie Carre Pizza      | 490            |
+| The Mediterranean Pizza   | 934            |
+| The Calabrese Pizza       | 937            |
+| The Spinach Supreme Pizza | 950            |
+| The Soppressata Pizza     | 961            |
  
 
 #### III. Total Orders
@@ -270,5 +320,12 @@ LIMIT 5
 
 **Results:**
 
+| pizza_name                | total_orders |
+|---------------------------|--------------|
+| The Brie Carre Pizza      | 480          |
+| The Mediterranean Pizza   | 912          |
+| The Calabrese Pizza       | 918          |
+| The Spinach Supreme Pizza | 918          |
+| The Chicken Pesto Pizza   | 938          |
 
 
