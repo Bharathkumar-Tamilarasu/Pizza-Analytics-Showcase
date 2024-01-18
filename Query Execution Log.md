@@ -10,7 +10,11 @@
 	
 ### A.	KPI’s
 
+We need to analyze key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
+
 #### I.	Total Revenue
+
+The sum of the total price of all pizza orders.
 
 ````sql
 SELECT SUM(TOTAL_PRICE) AS TOTAL_REVENUE
@@ -25,6 +29,8 @@ FROM PIZZA_SALES
 
 #### II. Average Order Value
 
+The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
+
 ````sql
 SELECT SUM(TOTAL_PRICE) / COUNT(DISTINCT ORDER_ID) AS AVERAGE_ORDER_VALUE
 FROM PIZZA_SALES
@@ -37,6 +43,8 @@ FROM PIZZA_SALES
 | 38.30726233         |
 
 #### III. Total Pizzas Sold
+
+The sum of the quantities of all pizzas sold.
 
 ````sql
 SELECT SUM(QUANTITY) AS TOTAL_PIZZAS_SOLD
@@ -51,6 +59,8 @@ FROM PIZZA_SALES
 
 #### IV. Total Orders
 
+The total number of orders placed.
+
 ````sql
 SELECT COUNT(DISTINCT ORDER_ID) AS TOTAL_ORDERS
 FROM PIZZA_SALES
@@ -64,6 +74,8 @@ FROM PIZZA_SALES
 
 #### V.	Average Pizzas Per Order
 
+The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
+
 ````sql
 SELECT ROUND((SUM(QUANTITY) * 1.0) / (COUNT(DISTINCT ORDER_ID) * 1.0),2) AS AVERAGE_PIZZAS_PER_ORDER
 FROM PIZZA_SALES
@@ -75,7 +87,10 @@ FROM PIZZA_SALES
 |--------------------------|
 | 2.32                     |
 
+
 ### B.	Hourly Trend for Total Pizzas Sold
+
+This query help us to identify any patterns or fluctuations in order volumes on a hourly basis.
 
 ````sql
 SELECT EXTRACT(HOUR FROM ORDER_TIME) AS ORDER_TIME,SUM(QUANTITY) AS TOTAL_ORDERS
@@ -106,6 +121,8 @@ ORDER BY 1
 
 ### C.	Weekly Trend for Total Orders
 
+This query will allow us to identify peak weeks or periods of high order activity.
+
 ````sql
 SELECT EXTRACT(WEEK FROM ORDER_DATE) AS WEEK_NUMBER,
 	EXTRACT(YEAR FROM ORDER_DATE) AS ORDER_YEAR,
@@ -127,6 +144,8 @@ ORDER BY 1
 
 
 ### D.	Percentage of Sales by Pizza Category
+
+This query will provide insights into the popularity of various pizza categories and their contribution to overall sales.
 
 ````sql
 SELECT PIZZA_CATEGORY,
@@ -151,6 +170,8 @@ ORDER BY 1
 
 ### E.	Percentage of Sales by Pizza Size
 
+This query will help us understand customer preferences for pizza sizes and their impact on sales.
+
 ````sql
 SELECT PIZZA_SIZE,
 	CAST(SUM(TOTAL_PRICE) AS DECIMAL(10,2)) AS TOTAL_SALES,
@@ -174,6 +195,8 @@ ORDER BY 3 DESC
 
 ### F.	Total Pizzas Sold by Pizza Category
 
+This query will allow us to compare the sales performance of different pizza categories.
+
 ````sql
 SELECT PIZZA_CATEGORY,
 	SUM(QUANTITY) AS TOTAL_SALES
@@ -193,6 +216,8 @@ ORDER BY 2 DESC
 
 
 ### G.	Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+These queries will help us identify the most popular pizza options.
 
 #### I.	By Revenue
 
@@ -261,6 +286,8 @@ LIMIT 5
 | The Thai Chicken Pizza     | 2225         |
 
 ### H.	Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+These queries will enable us to identify underperforming or less popular pizza options.
 
 #### I.	By Revenue
 
