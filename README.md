@@ -9,6 +9,12 @@
 
 Diving into pizza sales data with SQL, I found interesting patterns and figures. Using Tableau, I turned this info into visuals, simplifying the world of pizza sales.
 
+| Report 1                            | Report 2                            |
+| ----------------------------------- | ----------------------------------- |
+| ![Home](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza_1.png) | ![Best/Worst](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza_2.png) |
+
+
+
 ## Data Analysis
 
 Find out the SQL analysis below
