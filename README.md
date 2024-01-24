@@ -9,6 +9,10 @@
 **Website**: https://bharathkumart17.wixsite.com/portfolio <br />
 **LinkedIn**: https://www.linkedin.com/in/bharathkumar-tamilarasu-218429222/  <br />
 
+##
+
+![Pizza Sales](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza%20sales_1.jpg)
+
 ## Introduction
 
 Diving into pizza sales data with SQL, I found interesting patterns and figures. Using Tableau, I turned this info into visuals, simplifying the world of pizza sales.
@@ -30,5 +34,16 @@ Key dataset for this case study
 
 ## Entity Relationship Diagram
 ![alt text](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza%20Sales%20ERD.png)
-##
+
+## Visuals
+
+**Home**
+
+![Home](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Dashboard_Home.png)
+
+**Best/Worst**
+
+![Best Worst](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Dashboard_BestWorst.png)
+
+
 ### Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!
