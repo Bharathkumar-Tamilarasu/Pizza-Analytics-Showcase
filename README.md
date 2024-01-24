@@ -31,4 +31,4 @@ Key dataset for this case study
 ## Entity Relationship Diagram
 ![alt text](https://github.com/Bharathkumar-Tamilarasu/Pizza-Analytics-Showcase/blob/main/Pizza%20Sales%20ERD.png)
 ##
-### *Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!*
+### Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!
