@@ -15,7 +15,8 @@
 
 ## Introduction
 
-Engaged in a detailed exploration of pizza sales data through SQL, uncovering intriguing patterns and key figures. Leveraged Tableau to transform these findings into visually intuitive representations, simplifying the understanding of pizza sales dynamics.
+* Engaged in a detailed exploration of pizza sales data through SQL, uncovering intriguing patterns and key figures.
+* Leveraged Tableau to transform these findings into visually intuitive representations, simplifying the understanding of pizza sales dynamics.
 
 ## Data Analysis
 
